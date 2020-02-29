@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <script src="https://kit.fontawesome.com/8d4a291d01.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/swiper.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Monticello</title>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <a href="#" class="logo">
+          <picture>
+            <source media="(max-width: 576px)" srcset="img/logo-s.png">
+            <img src="img/logo.png" alt="Monticello Logo" />
+          </picture>
+
+        </a>
+        <button class="menu__open" id="open">
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <ul class="menu" id="menu">
+          <li class="menu__item">
+            <div class="menu__marker"></div>
+            <a href="#about-us" class="menu__link ">About Us</a>
+          </li>
+          <li class="menu__item">
+            <div class="menu__marker"></div>
+            <a href="#projects" class="menu__link menu__link--before">projects</a>
+          </li>
+          <li class="menu__item">
+            <div class="menu__marker"></div>
+            <a href="#news" class="menu__link menu__link--before">news</a>
+          </li>
+          <li class="menu__item">
+            <div class="menu__marker"></div>
+            <a href="#contact" class="menu__link menu__link--before">contact</a>
+          </li>
+          <button class="menu__close" id="close">×</button>
+        </ul>
+        <div class="menu__socials">
+          <a href="#" target="_blanc" class="menu__social">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="#" target="_blanc" class="menu__social">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#" target="_blanc" class="menu__social">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+      </nav>
+      <div class="head-slider">
+        <div class="swiper-container header-swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <h1 class="head-slider__title">Simple & modern</h1>
+              <h3 class="head-slider__subtitle">
+                We make the world's beautiful every day
+              </h3>
+            </div>
+            <div class="swiper-slide">
+              <h1 class="head-slider__title">powerful & cool</h1>
+              <h3 class="head-slider__subtitle">
+                Just Do It
+              </h3>
+            </div>
+            <div class="swiper-slide">
+              <h1 class="head-slider__title">innovative & creative</h1>
+              <h3 class="head-slider__subtitle">
+                Think Different
+              </h3>
+            </div>
+            <div class="swiper-slide">
+              <h1 class="head-slider__title">luxurious & expensive</h1>
+              <h3 class="head-slider__subtitle">
+                Designed for Driving Pleasure
+              </h3>
+            </div>
+            <div class="swiper-slide">
+              <h1 class="head-slider__title">tasty & unhealthy</h1>
+              <h3 class="head-slider__subtitle">
+                I'm Lovin' It
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination swiper-pagination--head"></div>
+      </div>
+    </div>
+    <a href="#about-us" class="chevron chevron--center">
+      <i class="fas fa-chevron-down"></i>
+    </a>
+  </header>
+  <main>
+    <section class="section" id="about-us">
+      <div class="container">
+        <h2 class="section__title">what we do</h2>
+        <div class="about">
+          <picture class="about__img">
+            <source media="(max-width: 370px)" srcset="img/img-xs.jpg">
+            <source media="(max-width: 576px)" srcset="img/img-s.jpg">
+            <source media="(max-width: 730px)" srcset="img/img-m.jpg">
+            <source media="(max-width: 992px)" srcset="img/img-l.jpg">
+            <img src="img/img.jpg" alt="trade-center" />
+          </picture>
+          <div class="about__text-block">
+            <h4 class="about__subtitle">One World</h4>
+            <h3 class="about__title">
+              Trade Center
+            </h3>
+            <p class="about__text">
+              Increasing prosperity in our lives can be accomplished by having
+              the right frame of mind. The truth is, our thoughts are very
+              powerful.
+            </p>
+            <button class="btn">more details</button>
+            <a href="#map" class="about__address"><i class="fas fa-map-marker-alt"></i><span id="ny" class="address">285
+                Fulton St, New York</span></a>
+          </div>
+        </div>
+        <div class="about about--right">
+          <picture class="about__img">
+            <source media="(max-width: 370px)" srcset="img/img2-xs.jpg">
+            <source media="(max-width: 576px)" srcset="img/img2-s.jpg">
+            <source media="(max-width: 730px)" srcset="img/img2-m.jpg">
+            <source media="(max-width: 992px)" srcset="img/img2-l.jpg">
+            <img src="img/img2.jpg" alt="commerce-center" />
+          </picture>
+          <div class="about__text-block">
+            <h4 class="about__subtitle">International</h4>
+            <h3 class="about__title">
+              Commerce Centre
+            </h3>
+            <p class="about__text">
+              Successful businesses have many things in common, today we’ll
+              look at the big ‘R’ of recognition and how a digital advertising
+              network may help.
+            </p>
+            <button class="btn">more details</button>
+            <a href="#map" class="about__address"><i class="fas fa-map-marker-alt"></i><span id="hk" class="address">1
+                Austin Rd W, Hong Kong</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section section--news" id="news">
+      <div class="container">
+        <h2 class="section__title section__title--white">latest news</h2>
+
+        <div class="news-slider">
+          <div class="swiper-container news-swiper">
+            <div class="swiper-wrapper news-slider__wrapper">
+              <div class="swiper-slide news-slider__slide">
+                <a href="#" class="news-slider__link">
+                  <img src="img/news1.jpg" alt="glass building" class="news-slider__img" />
+                  <img src="img/plus.png" class="news-slider__hover" alt="" />
+                  <div class="news-slider__text-block">
+                    <h4 class="news-slider__title">
+                      See The Unmatched Beauty Of The Great. Lakes.
+                    </h4>
+                    <span class="news-slider__text">
+                      Free directories: directories are perfect for customers
+                      that are... searching for a particular topic. What’s
+                      great about them is that you only have to post once and
+                      they are good for long periods of time. It saves a lot
+                      of your time when you don’t have to resubmit your
+                      information every week or every month. The bad news is
+                      most of your traffic won’t come from here.
+                    </span>
+                  </div>
+                </a>
+                <a href="" class="news-slider__author">
+                  <img src="img/author.jpg" alt="Isaac Dunn" class="news-slider__photo" />
+                  <div class="news-slider__name-block">
+                    <span class="news-slider__name">Isaac Dunn</span>
+                    <time class="news-slider__date" datetime="2017-02-09 00:00:00">09 Feb 2017</time>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide news-slider__slide">
+                <a href="#" class="news-slider__link">
+                  <img src="img/news2.jpg" alt="white building" class="news-slider__img" />
+                  <img src="img/plus.png" class="news-slider__hover" alt="" />
+                  <div class="news-slider__text-block">
+                    <h4 class="news-slider__title">
+                      Effective Advertising Pointers.
+                    </h4>
+                    <span class="news-slider__text">
+                      Having a home based business is a wonderful asset to
+                      your life... The problem still stands, when it comes
+                      time to advertise your business for a cheap cost.
+                    </span>
+                  </div>
+                </a>
+                <a href="" class="news-slider__author">
+                  <img src="img/author2.jpg" alt="Dominic Freeman" class="news-slider__photo" />
+                  <div class="news-slider__name-block">
+                    <span class="news-slider__name">Dominic Freeman</span>
+                    <time class="news-slider__date" datetime="2017-04-24 00:00:00">24 Apr 2017</time>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide news-slider__slide">
+                <a href="#" class="news-slider__link">
+                  <img src="img/news3.jpg" alt="round building" class="news-slider__img" />
+                  <img src="img/plus.png" class="news-slider__hover" alt="" />
+                  <div class="news-slider__text-block">
+                    <h4 class="news-slider__title">
+                      Hypnotize Yourself Into The Ghost. Of Christmas Future
+                    </h4>
+                    <span class="news-slider__text">
+                      There are many things that are important to catalog
+                      design.... Your images must be sharp and appealing. Your
+                      text and even the font you use for the text is
+                      important. The cover page design and the design of your
+                      catalog’s product pages all play important roles in
+                      designing a catalog that will bring in new customers and
+                      sales.
+                    </span>
+                  </div>
+                </a>
+                <a href="" class="news-slider__author">
+                  <img src="img/author3.jpg" alt="Alice Ward" class="news-slider__photo" />
+                  <div class="news-slider__name-block">
+                    <span class="news-slider__name">Alice Ward</span>
+                    <time class="news-slider__date" datetime="2017-12-30 00:00:00">30 Dec 2017</time>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide news-slider__slide">
+                <a href="#" class="news-slider__link">
+                  <img src="img/news4.jpg" alt="" class="news-slider__img" />
+                  <img src="img/plus.png" class="news-slider__hover" alt="" />
+                  <div class="news-slider__text-block">
+                    <h4 class="news-slider__title">
+                      See The Unmatched Beauty Of The Great. Lakes.
+                    </h4>
+                    <span class="news-slider__text">
+                      Free directories: directories are perfect for customers
+                      that are... searching for a particular topic. What’s
+                      great about them is that you only have to post once and
+                      they are good for long periods of time. It saves a lot
+                      of your time when you don’t have to resubmit your
+                      information every week or every month. The bad news is
+                      most of your traffic won’t come from here.
+                    </span>
+                  </div>
+                </a>
+                <a href="" class="news-slider__author">
+                  <img src="img/author4.jpg" alt="Harry Potter" class="news-slider__photo" />
+                  <div class="news-slider__name-block">
+                    <span class="news-slider__name">Harry Potter</span>
+                    <time class="news-slider__date" datetime="2017-02-09 00:00:00">09 Feb 2017</time>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide news-slider__slide">
+                <a href="#" class="news-slider__link">
+                  <img src="img/news5.jpg" alt="" class="news-slider__img" />
+                  <img src="img/plus.png" class="news-slider__hover" alt="" />
+                  <div class="news-slider__text-block">
+                    <h4 class="news-slider__title">
+                      Effective Advertising Pointers.
+                    </h4>
+                    <span class="news-slider__text">
+                      Having a home based business is a wonderful asset to
+                      your life... The problem still stands, when it comes
+                      time to advertise your business for a cheap cost.
+                    </span>
+                  </div>
+                </a>
+                <a href="" class="news-slider__author">
+                  <img src="img/author5.jpg" alt="Lord Voldemort" class="news-slider__photo" />
+                  <div class="news-slider__name-block">
+                    <span class="news-slider__name">Lord Voldemort</span>
+                    <time class="news-slider__date" datetime="2017-04-24 00:00:00">24 Apr 2017</time>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-pagination"></div>
+
+          <button href="#about-us" class="chevron chevron--left">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <button href="#about-us" class="chevron chevron--right">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+    <section class="section" id="projects">
+      <div class="container">
+        <h2 class="section__title">gallery</h2>
+        <div class="grid">
+          <div class="grid__item grid__item--2w grid__item--2h">
+            <div class="grid__picture">
+              <img src="img/gallery1.jpg" alt="building" class="grid__img" />
+              <img src="img/360.png" alt="" class="grid__hover" />
+              <div class="grid__iframe hidden">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!4v1582826715358!6m8!1m7!1sCAoSLEFGMVFpcFBIXzVjdUMxUktHZk82bW9ZZWxZYV9IeEtHTWFDLVFPSlAzc1Vo!2m2!1d43.6534399!2d-79.3840901!3f328.5008910256341!4f15.17980700293981!5f0.7820865974627469"
+                  width="580" height="438" frameborder="0" style="border:0;" allowfullscreen=""
+                  class="grid__360"></iframe>
+                <!-- <button class="grid__close" onclick="close()">×</button> -->
+              </div>
+            </div>
+          </div>
+          <div class="grid__item">
+            <div class="grid__picture">
+              <img src="img/gallery2.jpg" alt="building" class="grid__img" />
+              <img src="img/360.png" alt="" class="grid__hover" />
+              <div class="grid__iframe hidden">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!4v1582828918011!6m8!1m7!1sCAoSLEFGMVFpcFBzNVhEWElpZkgwQ3BJeFhITzR5eXFFWWRNVGRCNUQwMEVBQzZI!2m2!1d39.9490717!2d116.43113!3f111.21669887710614!4f15.15237604494962!5f0.7820865974627469"
+                  width="285" height="214" frameborder="0" style="border:0;" allowfullscreen=""
+                  class="grid__360"></iframe>
+                <!-- <button class="grid__close">×</button> -->
+              </div>
+            </div>
+          </div>
+          <div class="grid__item">
+            <div class="grid__picture">
+              <img src="img/gallery3.jpg" alt="building" class="grid__img" />
+              <img src="img/360.png" alt="" class="grid__hover" />
+              <div class="grid__iframe hidden">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!4v1582830309351!6m8!1m7!1sIzBJpFXqzfuloe8cQeziPw!2m2!1d41.82746044073183!2d-71.40317152839351!3f311.1103717579625!4f25.78822968428969!5f0.7820865974627469"
+                  width="285" height="214" frameborder="0" style="border:0;" allowfullscreen=""
+                  class="grid__360"></iframe>
+                <!-- <button class="grid__close">×</button> -->
+              </div>
+            </div>
+          </div>
+          <div class="grid__item">
+            <div class="grid__picture">
+              <img src="img/gallery4.jpg" alt="building" class="grid__img" />
+              <img src="img/360.png" alt="" class="grid__hover" />
+              <div class="grid__iframe hidden">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!4v1582830573840!6m8!1m7!1shfebbHSNdNzX-nfEhYrk9w!2m2!1d-33.86475395222879!2d151.2101166397564!3f64.4383119296304!4f24.941988047475007!5f0.7820865974627469"
+                  width="285" height="214" frameborder="0" style="border:0;" allowfullscreen=""
+                  class="grid__360"></iframe>
+                <!-- <button class="grid__close">×</button> -->
+              </div>
+            </div>
+          </div>
+          <div class="grid__item">
+            <div class="grid__picture">
+              <img src="img/gallery5.jpg" alt="building" class="grid__img" />
+              <img src="img/360.png" alt="" class="grid__hover" />
+              <div class="grid__iframe hidden">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!4v1582830861118!6m8!1m7!1sCAoSLEFGMVFpcE1LZDNJb1JuZF85b0ZvVzhoMk03cFRzeG54NzlZZWF2Wmh3ZmRl!2m2!1d34.0544694!2d-118.2505582!3f321.365936802475!4f15.834966465203195!5f0.7820865974627469"
+                  width="285" height="214" frameborder="0" style="border:0;" allowfullscreen=""
+                  class="grid__360"></iframe>
+                <!-- <button class="grid__close">×</button> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="btn btn--center">see more</button>
+      </div>
+    </section>
+    <section class="section" id="map"></section>
+    <section class="section section--form" id="contact">
+      <div class="form">
+        <h2 class="section__title">get in touch</h2>
+        <div class="form__block">
+          <div class="form__contacts">
+            <a href="#map" class="form__item"><i class="fas fa-map-marker-alt"></i><span id="address"
+                class="address">142 Rockaway, Brooklyn, NY</span></a>
+            <a href="tel:+001 356-868-2454" class="form__item"><i class="fas fa-phone-alt"></i>+001 356-868-2454</a>
+            <a href="mailto:gahuy93@gmail.com" class="form__item"><i class="fas fa-inbox"></i>gahuy93@gmail.com</a>
+            <span class="form__item"><i class="far fa-clock"></i>From 07:05AM to 19:30PM</span>
+          </div>
+          <form action="" class="form__inputs">
+            <input class="form__input" type="text" name="name" id="name" placeholder="Name" required />
+            <input class="form__input" type="email" name="email" id="email" placeholder="Email" required
+              onkeypress="return checkSpace(event)" />
+            <button class="btn btn--form" id="formSubmit">submit</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="container container--footer">
+      <div class="footer">
+        <picture>
+          <source media="(max-width: 576px)" srcset="img/logo-s.png">
+          <img src="img/logo.png" alt="Monticello Logo" />
+        </picture>
+        <div class="menu__socials">
+          <a href="#" target="_blanc" class="menu__social">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="#" target="_blanc" class="menu__social">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#" target="_blanc" class="menu__social">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+      <div class="footer__copyright">
+        <span>Copyrights © 2017 Monticello Group</span>
+        <span>Made with <i class="fas fa-heart"></i> by
+          <a href="https://github.com/Katherine8819" target="_blank">Katherine Zhdanova</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD7BPy6e4vnhWePEqTnaxAJ7MlGOx5A2BY&callback=initMap"
+    type="text/javascript"></script>
+  <script src="js/map.js"></script>
+  <script src="js/swiper.min.js"></script>
+  <script>
+    var headerSwiper = new Swiper(".header-swiper", {
+      loop: true,
+      slidesPerView: 1,
+      direction: "vertical",
+      effect: `flip`,
+      flipEffect: {
+        rotate: 10,
+        slideShadows: false
+      },
+      autoplay: {
+        delay: 3000
+      },
+
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true
+      }
+    });
+    var newsSwiper = new Swiper(".news-swiper", {
+      loop: true,
+      slidesPerView: 1,
+      spaceBetween: 30,
+      autoplay: {
+        delay: 4000
+      },
+
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true
+      },
+
+      navigation: {
+        nextEl: ".chevron--right",
+        prevEl: ".chevron--left"
+      },
+
+      breakpoints: {
+        320: {
+          slidesPerView: 1,
+          spaceBetween: 20
+        },
+
+        700: {
+          slidesPerView: 2,
+          spaceBetween: 30
+        },
+
+        1100: {
+          slidesPerView: 3,
+          spaceBetween: 40
+        }
+      }
+    });
+  </script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

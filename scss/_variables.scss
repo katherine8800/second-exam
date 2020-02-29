@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i&display=swap");
+@font-face {
+  font-family: "Gotham Bold";
+  src: url(../fonts/gotham/bold/gothambold1.eot);
+  src: url(../fonts/gotham/bold/gothambold1.eot?#iefix)
+      format("embedded-opentype"),
+    url(../fonts/gotham/bold/gothambold1.woff) format("woff"),
+    url(../fonts/gotham/bold/gothambold1.ttf) format("truetype");
+  font-weight: bold;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: "Gotham Book";
+  src: url(../fonts/gotham/book/GothamBook.eot);
+  src: url(../fonts/gotham/book/GothamBook.eot?#iefix)
+      format("embedded-opentype"),
+    url(../fonts/gotham/book/GothamBook.woff) format("woff"),
+    url(../fonts/gotham/book/GothamBook.ttf) format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gotham Regular";
+  src: url(../fonts/gotham/regular/gotham-medium-webfont.woff) format("woff"),
+    url(../fonts/gotham/regular/gotham-medium-webfont.woff2) format("woff2"),
+    url(../fonts/gotham/regular/gotham-medium-webfont.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+$first-gradient: #55b7ff;
+$second-gradient: #7e5aff;
+$text-color: #4b5562;
+$title-color: #2c4058;
+
+$text-ff: "Open Sans", sans-serif;
+$title-ff: "Gotham Bold", sans-serif;
+$book-ff: "Gotham Book", sans-serif;
+$regular-ff: "Gotham Regular", sans-serif;
