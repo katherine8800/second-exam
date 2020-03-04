@@ -27,11 +27,13 @@ let items = document.querySelectorAll('.menu__item')
 open.addEventListener('click', function () {
   menu.setAttribute('style', 'transform: translate(0, 0)')
   close.setAttribute('style', 'display: block')
+  open.style.display = 'none'
 })
 
 close.addEventListener('click', function () {
   menu.removeAttribute('style')
   close.removeAttribute('style')
+  open.style.display = 'block'
 })
 
 items.forEach(function (item) {
